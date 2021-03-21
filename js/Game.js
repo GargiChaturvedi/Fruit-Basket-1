@@ -74,7 +74,7 @@ class Game {
         if(frameCount % 30 === 0) {
             var fruits = createSprite(random(50, 1220), 0, 100, 100);
             fruits.velocityY = 6;
-            fruits.debug = true;
+            fruits.debug = false;
             var randSwitch = Math.round(random(1, 5));
             switch(randSwitch) {
               case 1: fruits.addImage("melon", melonImage);
